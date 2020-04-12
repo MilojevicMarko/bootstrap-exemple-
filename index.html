@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="main.css" rel="stylesheet" />
+    <title>Bootstrap homework</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1 class="logo"><a href="#">Bootstrap Grid</a></h1>
+      </div>
+      <!-- end .container -->
+    </header>
+
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Grid</a></li>
+          <li><a href="#">Code</a></li>
+          <li><a href="#">Learn it!</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="row">
+          <div class="main-img col-md-5 col-lg-4">
+            <img
+              class="img-fluid"
+              src="img/bootstrap.jpg"
+              alt="Responsive Bootstrap"/>
+          </div>
+
+          <div class="main-text col-md-7 col-lg-8">
+            <h2 class="h1">Bootstrap grid system</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              condimentum ligula enim, at dictum odio condimentum a. Nulla
+              consectetur sapien ac pellentesque posuere. Sed faucibus elit
+              vitae mauris cursus, sed sagittis magna molestie. Nunc faucibus
+              mattis dignissim. Nam nunc ipsum, rhoncus id vulputate ac, viverra
+              quis sem.
+            </p>
+          </div>
+          <!-- end main-text -->
+        </div>
+        <!-- end .row -->
+      </main>
+
+      <div class="products">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <article>
+              <h2>Why Is It Good?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                condimentum ligula enim, at dictum odio condimentum a. Nulla
+                consectetur sapien ac pellentesque posuere. Sed faucibus elit
+                vitae mauris cursus.
+              </p>
+              <a class="read-more" href="#">Read more...</a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article>
+              <h2>Mobile First</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                condimentum ligula enim, at dictum odio condimentum a. Nulla
+                consectetur sapien ac pellentesque posuere. Sed faucibus elit
+                vitae mauris cursus.
+              </p>
+              <a class="read-more" href="#">Read more...</a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article>
+              <h2>How Does It Work?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                condimentum ligula enim, at dictum odio condimentum a. Nulla
+                consectetur sapien ac pellentesque posuere. Sed faucibus elit
+                vitae mauris cursus.
+              </p>
+              <a class="read-more" href="#">Read more...</a>
+            </article>
+          </div>
+        </div>
+        <!-- end .row -->
+      </div>
+      <!-- end .products -->
+
+      <section class="contact">
+        <div class="row">
+          <div class="col-md-8 col-lg-7 col-xl-8">
+            <h3>Any questions? Please, contact us.</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="UserName">Name</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  name="UserName"
+                  id="UserName"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="UserEmail">E-mail</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  name="UserEmail"
+                  id="UserEmail"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="UserMessage">Message</label>
+                <textarea
+                  class="form-control"
+                  name="UserMessage"
+                  id="UserMessage"
+                  required
+                ></textarea>
+              </div>
+              <!-- end .form-group -->
+              <button class="btn btn-block button">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4 col-lg-5 col-xl-4">
+            <div class="svg-holder">
+              <img
+                class="img-fluid letter"
+                src="img/letter.svg"
+                alt="Envelope"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- end .row -->
+      </section>
+    </div>
+    <!-- end container -->
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          &copy; Marko Milojevic <span>homework exercise</span>. April 2020.
+        </div>
+      </div>
+      <!-- end .container -->
+    </footer>
+  </body>
+</html>
